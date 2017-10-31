@@ -45,12 +45,19 @@ body {
     position: absolute;
     top: 20px;
 }
-.menu-down li:hover{
-    color: white;
-    border: solid 2px #18bc9c;
-    border-radius: 5px;
-    background-color: #18bc9c;
+.menu-option a:hover {
+    color: #18bc9c;
 }
+
+.menu-option a:focus {
+    background-color: #18bc9c;
+    color: white;
+    border-radius:3px;
+    padding: 10px; 
+}
+
+    
+
 span {
     font-size: 32px;
 }
@@ -58,7 +65,7 @@ a {
     cursor: auto; 
 }
 ul {
-    padding-left: 900px;
+    padding-left: 870px;
     padding-top: 5px;
 }
 ul li {
@@ -66,9 +73,10 @@ ul li {
     display: inline-block;
 }
 li {
+    display: inline-block;
     list-style: none;
-    padding-right: 10px;
-    padding-left: 10px;   
+    padding-right: 20px;
+    padding-left: 20px;   
 }
 li a {
     color: #fff;
@@ -153,24 +161,34 @@ h2{
 /*---------------------Estilos para section:Portafolio-----------------*/
 #portafolio{
     background-color: white;
+    display: block;
+}
+#portafolio .portafolio-content {
+    background-color: white;
+    
+    display: block;
+    height: 500px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 20px;
 }
 div .img-fluid {
     width: 350px;
     height: 250px;
-}
-.portafolio-content {
-    -webkit-column-count:3;
-    -moz-column-count:3;
-    column-count:3; 
-    padding-right: 40px;
-    padding-left: 40px;
+    float: left;
     text-align: center;
-    margin: 0 0 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+    margin: 20px;
+    
 }
-div .img-fluid:hover{
-   background: rgba(24,188,156,.9);
+.portafolio-items img:hover {
     opacity: 1;
+    background: rgba(24,188,156,.9); 
 }
+
+
 /*---------------------Estilos para section:About-----------------*/
 #about {
     background: #18bc9c;

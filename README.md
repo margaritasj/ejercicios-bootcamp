@@ -55,12 +55,12 @@ Este reto será evaluado sobre lo siguiente:
 * Archivo `README.md` actualizado y correctamente redactado
 * Uso de comentarios para hacer tu código más legible
 
-### Herramientas utilizadas ###
+## Herramientas utilizadas 
 
 - HTML5
 - CSS3 
 
-### Estructura de mis carpetas en GitHub ###
+## Estructura de mis carpetas en GitHub 
 
 ```Freelancer
 1. assets
