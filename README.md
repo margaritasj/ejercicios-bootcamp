@@ -54,3 +54,21 @@ Este reto será evaluado sobre lo siguiente:
 * Indentación
 * Archivo `README.md` actualizado y correctamente redactado
 * Uso de comentarios para hacer tu código más legible
+
+### Herramientas utilizadas ###
+
+- HTML5
+- CSS3 
+
+### Estructura de mis carpetas en GitHub ###
+
+```Freelancer
+1. assets
+    - images
+    - link    
+2. css
+    - main.css
+3. docs
+4. index.html
+5. README.md
+```
