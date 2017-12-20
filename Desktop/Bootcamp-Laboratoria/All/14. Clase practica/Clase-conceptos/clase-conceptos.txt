@@ -1,0 +1,71 @@
+                                                Reglas de CSS
+
+1. Especificidad: Tienen que ver con valores, que significa que si aplica slector de etiqueta.
+
+    Ejemplos
+    p: Selector de etiqueta
+
+    id(100):0
+    clase(10):0
+    etiqueta(1):1
+    total:1
+
+    .byline
+
+    id(100):0
+    clase(10):1
+    etiqueta(1):0
+    total:10
+
+    p .byline: Esfecificidad 11
+
+    id(100):0
+    clase(10):1
+    etiqueta(1):1
+    total:11
+
+    #banner : Esfecificidad 100
+
+    id(100):1
+    clase(10):0
+    etiqueta(1):0
+    total:100
+
+    #banner p : Esfecificidad 101
+
+    id(100):1
+    clase(10):0
+    etiqueta(1):1
+    total:101
+
+    a:hover : Esfecificidad 11 para una pseudo clase
+
+    id(100):0
+    clase(10):1
+    etiqueta(1):1
+    total:11
+    
+    ________________________________________________________________________________________________________________________________________________
+    
+                                                            PSEUDO CLASES
+1. Nos permiten seleccionar elementos HTML, basados en la informacion que no es accesibles en el DOM(Document Object Model)
+
+:link                       :checked
+:visited                    :ntn-child(n)
+:actived                    :ntn-last-child(n)
+:hover                      :ntn-of-type(n)
+:focus                      :ntn-last-of-type(n)
+:target                     :first-child
+:empty                      :first-of-type
+:enable                     :last-of-type
+:disable                    :only-child
+
+    ________________________________________________________________________________________________________________________________________________
+    
+                                                            PSEUDO ELEMENTO
+1. Crea una abstraccion en el DOM, crea un elemento virtual que puede ser manipulado en su contenido y forma.
+
+::before  (antes de)                     
+::after   (despues de) 
+::first-line
+::first-letter

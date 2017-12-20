@@ -1,0 +1,1 @@
+alert('Posicionando menu general de iconos');

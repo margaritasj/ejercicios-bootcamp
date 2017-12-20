@@ -1,0 +1,60 @@
+body {
+    font-family: 'Lato', sans-serif;
+    padding: 10px;
+ }
+
+header h1 {
+    margin-bottom: 3px;
+    margin-top: 0px;
+    font-family: 'Open Sans', sans-serif;
+    color: blueviolet;
+    
+ }
+ header hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+ }
+ .biography {
+    width: 78%;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1.6;
+     
+ }
+.summary {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-top: 15px;
+}
+.summary table {
+    border: 1px solid #a2a9b1 ;
+    background-color: #f8f9fa ;
+    padding: 1px;
+    font-size: 14px;
+ }
+
+.summary table thead th {
+    background-color: #80C4DE ;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 16px;
+ }
+
+.summary table tbody tr:first-child {
+    text-align: center;
+ }
+.summary table tbody th {
+    text-align: left;
+ }
+span {
+    color: deeppink;
+}
+/*.icon-file-text2:before {
+    content: "\e926";
+    color: deeppink;
+}
+.icon-home:before {
+    content: "\e900";
+    color: deeppink;
+}*/

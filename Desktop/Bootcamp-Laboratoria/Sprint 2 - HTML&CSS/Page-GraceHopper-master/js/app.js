@@ -1,0 +1,1 @@
+alert('Bienvenidos, esta es una replica de Wikipedia - Grace Hopper');

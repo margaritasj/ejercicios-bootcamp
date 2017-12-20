@@ -1,0 +1,28 @@
+body{
+    background-color:cornflowerblue;
+}
+#red{
+    color: red;
+}
+#green{
+    color: green;
+}
+#pink{
+    color: pink;
+}
+#yellow{
+    color: yellow;
+}
+*{
+    font-family: cambria;
+    color: crimson;
+}
+.title{
+    font-family: sans-serif;
+    color: purple;
+}
+img[alt="alt"]
+#conteiner-image img{
+    width: 400px;
+    height: 300px; 
+}

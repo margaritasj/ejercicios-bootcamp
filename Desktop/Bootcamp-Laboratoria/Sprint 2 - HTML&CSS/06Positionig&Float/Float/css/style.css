@@ -1,0 +1,22 @@
+h1{
+    outline: 1px solid yellow;
+    text-align: center;
+}
+img {
+    outline: 1px solid green; /*ayuda visual de marcado*/
+    max-width: 100%;
+}
+.caja {
+    outline: 1px solid red;
+    width: 420px;
+    padding: 10px;
+    border:  1px solid #999;
+    margin: 16px;
+    box-sizing: border-box;
+    float:left;
+}
+p {
+    outline: 1px solid blue;
+}
+
+
